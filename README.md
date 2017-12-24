@@ -56,15 +56,14 @@ bot.btcSpend = 0.25
 // what multiplier do you want to apply to the current price when putting in the buy order?
 bot.adjustment = 0.05
 
-// Make the bot connect to twitter and monitor tweets.
-bot.init()
-
 // If you want to see it read tweets:
 bot.verbose = true
 
 // If you want it to shut up (which is the default):
 bot.verbose = false
 
+// Make the bot connect to twitter and monitor tweets.  VERY IMPORTANT!
+bot.init()
 ```
 
 It is now waiting for @officialmcafee to tweet his coin of the day.
