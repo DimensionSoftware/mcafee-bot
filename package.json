@@ -1,0 +1,20 @@
+{
+  "name": "mcafee-bot",
+  "version": "1.0.0",
+  "description": "buy coins based on @officialmcafee tweets",
+  "main": "index.js",
+  "repository": "https://github.com/DimensionSoftware/mcafee-bot",
+  "author": "John Beppu <john.beppu@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "clone": "^2.1.1",
+    "lazy.js": "^0.5.0",
+    "node-bittrex-api": "^0.8.1",
+    "twit": "^2.2.9"
+  }
+}
