@@ -15,7 +15,7 @@ When @officialmcafee posts his coin of the day, buy it ASAP.
 git clone ...
 cd mcafee-bot
 yarn
-export BITTREX_API_KEY='your_key'
+source secrets.env  # You have to get your own API keys from twitter and bittrex!
 yarn start
 ```
 
@@ -29,8 +29,8 @@ bot
 bot.btcSpend = 0.25
 
 // To get ahead of the pump, 
-// what multiplier do you want to apply to the price you're willing to buy for?
-bot.adjustment = 0.03
+// what multiplier do you want to apply to the current price when putting in the buy order?
+bot.adjustment = 0.05
 
 // Start the bot.
 bot.init()
@@ -38,3 +38,9 @@ bot.init()
 ```
 
 It is now waiting for @officialmcafee to tweet his coin of the day.
+
+# Tweets
+
+* https://twitter.com/officialmcafee/status/944929837671690241
+* https://twitter.com/officialmcafee/status/944555048880746497
+* https://twitter.com/officialmcafee/status/944206175100424193
