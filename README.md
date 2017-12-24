@@ -15,8 +15,13 @@ When @officialmcafee posts his coin of the day, buy it ASAP.
 git clone ...
 cd mcafee-bot
 yarn
+```
+
+# Usage
+
+```sh
 source secrets.env  # You have to get your own API keys from twitter and bittrex!
-yarn start
+bin/repl
 ```
 
 This will drop you into a node REPL with a running bot you can interact with while it runs.
