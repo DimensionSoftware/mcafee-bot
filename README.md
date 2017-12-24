@@ -12,7 +12,7 @@ When @officialmcafee posts his coin of the day, buy it ASAP.
 # Installation
 
 ```sh
-git clone ...
+git clone git@github.com:DimensionSoftware/mcafee-bot.git
 cd mcafee-bot
 yarn
 ```
@@ -24,7 +24,7 @@ source secrets.env  # You have to get your own API keys from twitter and bittrex
 bin/repl
 ```
 
-This will drop you into a node REPL with a running bot you can interact with while it runs.
+This will drop you into a node REPL with an instantiated bot you can command interactively.
 
 ```javascript
 // The bot.
@@ -37,7 +37,7 @@ bot.btcSpend = 0.25
 // what multiplier do you want to apply to the current price when putting in the buy order?
 bot.adjustment = 0.05
 
-// Start the bot.
+// Make the bot connect to twitter and monitor tweets.
 bot.init()
 
 ```
