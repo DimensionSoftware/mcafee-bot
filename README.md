@@ -1,6 +1,6 @@
 # mcafee-bot
 
-When @officialmcafee posts his coin of the day, buy it ASAP.
+When [@officialmcafee](https://twitter.com/officialmcafee) posts his coin of the day, buy it ASAP.
 
 # How it works
 
@@ -9,6 +9,10 @@ When @officialmcafee posts his coin of the day, buy it ASAP.
 * If so, determine what coin it is.
 * If it's on bittrex, buy it.
 
+## IT DOES NOT SELL!
+
+That is left as an exercise for you.
+
 # Installation
 
 ```sh
@@ -16,6 +20,21 @@ git clone git@github.com:DimensionSoftware/mcafee-bot.git
 cd mcafee-bot
 yarn
 ```
+
+## API Keys
+
+You have to go to both twitter and bittrex to get your own API keys.
+Once acquired, I recommend putting them in `secrets.env`.
+
+* Twitter:  https://apps.twitter.com/
+  * Create an application.
+  * You can leave callback URL blank.
+  * After that's done go to **Keys and Access Tokens** and make some access tokens.
+* Bittrex:  https://bittrex.com/Manage#sectionApi
+  * **Read Info** should be **ON**.
+  * **Trade Limit** should be **ON**.
+  * **Trade Market** doesn't matter.
+  * **Withdraw** should be **OFF** for your safety.
 
 # Usage
 
@@ -39,6 +58,12 @@ bot.adjustment = 0.05
 
 // Make the bot connect to twitter and monitor tweets.
 bot.init()
+
+// If you want to see it read tweets:
+bot.verbose = true
+
+// If you want it to shut up (which is the default):
+bot.verbose = false
 
 ```
 
