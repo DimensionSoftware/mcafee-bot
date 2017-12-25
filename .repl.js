@@ -22,3 +22,10 @@ global.bot = new Bot({
     secret: process.env.BITTREX_SECRET
   }
 })
+
+if (process.env.BTC_SPEND) {
+  global.bot.btcSpend = parseFloat(process.env.BTC_SPEND)
+}
+if (process.env.ADJUSTMENT) {
+  global.bot.adjustment = parseFloat(process.env.ADJUSTMENT)
+}
