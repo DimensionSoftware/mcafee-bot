@@ -7,6 +7,9 @@
   "author": "John Beppu <john.beppu@gmail.com>",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": ">= 7.6"
+  },
   "scripts": {
     "start": "node index.js"
   },
