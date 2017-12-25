@@ -43,7 +43,7 @@ source secrets.env  # You have to get your own API keys from twitter and bittrex
 bin/repl
 ```
 
-This will drop you into a node REPL with an instantiated bot you can command interactively.
+This will drop you into a node.js repl with an instantiated bot you can command interactively.
 
 ```javascript
 // The bot.
