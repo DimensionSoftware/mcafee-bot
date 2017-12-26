@@ -18,6 +18,7 @@
     "clone": "^2.1.1",
     "lazy.js": "^0.5.0",
     "node-bittrex-api": "^0.8.1",
+    "node-tesseract": "^0.2.7",
     "twit": "^2.2.9"
   }
 }
