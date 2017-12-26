@@ -32,6 +32,8 @@ brew install tesseract --with-all-languages
 apt-get install libtesseract-dev
 ```
 
+I don't know what to tell you Windows people.  Perhaps consider running [Ubuntu under VirtualBox](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098).
+
 ## Cloning
 
 ```sh
