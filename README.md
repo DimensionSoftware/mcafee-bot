@@ -15,6 +15,25 @@ That is left as an exercise for you.
 
 # Installation
 
+## Prerequisites
+
+Before you even try to install this, you need to have the following things installed:
+
+* [git](https://git-scm.com/)
+* [node.js](https://nodejs.org/en/)
+* [yarn](https://yarnpkg.com/en/)
+* libtesseract-dev (NEW)
+
+```sh
+# OSX
+brew install tesseract --with-all-languages
+
+# Linux (Ubuntu)
+apt-get install libtesseract-dev
+```
+
+## Cloning
+
 ```sh
 git clone git@github.com:DimensionSoftware/mcafee-bot.git
 cd mcafee-bot
@@ -35,6 +54,7 @@ Once acquired, I recommend putting them in `secrets.env`.
   * **Trade Limit** should be **ON**.
   * **Trade Market** doesn't matter.
   * **Withdraw** should be **OFF** for your safety.
+* Binance (Coming Soon)
 
 # Usage
 
@@ -70,6 +90,8 @@ It is now waiting for @officialmcafee to tweet his coin of the day.
 
 # Tweets
 
+* https://twitter.com/officialmcafee/status/945655402276024320
+* https://twitter.com/officialmcafee/status/945293044252905472
 * https://twitter.com/officialmcafee/status/944929837671690241
 * https://twitter.com/officialmcafee/status/944555048880746497
 * https://twitter.com/officialmcafee/status/944206175100424193
