@@ -56,7 +56,10 @@ Once acquired, I recommend putting them in `secrets.env`.
   * **Trade Limit** should be **ON**.
   * **Trade Market** doesn't matter.
   * **Withdraw** should be **OFF** for your safety.
-* Binance (Coming Soon)
+* Binance:  https://www.binance.com/userCenter/createApi.html (Coming Soon)
+  * **Read Info** should be **ON**
+  * **Enable Trading** should be **ON**
+  * **Enable Withdrawals** should be **OFF**
 
 # Usage
 
