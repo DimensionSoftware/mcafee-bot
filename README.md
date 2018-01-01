@@ -96,6 +96,7 @@ It is now waiting for @officialmcafee to tweet his coin of the day.
 
 # Tweets
 
+* https://twitter.com/officialmcafee/status/947845669213147136
 * https://twitter.com/officialmcafee/status/945655402276024320
 * https://twitter.com/officialmcafee/status/945293044252905472
 * https://twitter.com/officialmcafee/status/944929837671690241
