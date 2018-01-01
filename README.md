@@ -29,7 +29,7 @@ Before you even try to install this, you need to have the following things insta
 brew install tesseract --with-all-languages
 
 # Linux (Ubuntu)
-apt-get install libtesseract-dev
+apt-get install libtesseract-dev tesseract-ocr
 ```
 
 I don't know what to tell you Windows people.  Perhaps consider running [Ubuntu under VirtualBox](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098).
