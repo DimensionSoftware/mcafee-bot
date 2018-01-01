@@ -78,8 +78,9 @@ bot
 bot.btcSpend = 0.25
 
 // To get ahead of the pump, 
-// what multiplier do you want to apply to the current price when putting in the buy order?
-bot.adjustment = 0.05
+// what multiplier do you want to add to the current price when putting in the buy order?
+// bid == price + (price * bot.adjustment)
+bot.adjustment = 0.20
 
 // If you want to see it read tweets:
 bot.verbose = true
